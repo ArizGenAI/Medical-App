@@ -1,0 +1,14 @@
+# MediGuide AI — Python dependencies
+# Install with: pip install -r requirements.txt
+#
+# Works on Python 3.10+ including 3.14. LLMChain is imported from
+# langchain-classic on LangChain 1.x (see src/chains.py).
+
+python-dotenv>=1.0.1
+streamlit>=1.37.0
+openai>=1.40.0
+langchain>=0.3.0
+langchain-core>=0.3.0
+langchain-openai>=0.1.23
+langchain-community>=0.2.16
+langchain-classic>=1.0.0
